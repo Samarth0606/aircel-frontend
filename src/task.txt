@@ -1,0 +1,38 @@
+1. api -> https://cerulean-marlin-wig.cyclic.app/activities
+useEffect() ✅
+
+2. css
+
+3. api error hadling
+
+4. post request 
+PATCH - BASE_URL/activities/<call_id> update a call. The only field updatable is is_archived (bool). You'll need to send a JSON in the request body:
+{
+  is_archived: true
+}
+
+PATCH - BASE_URL/reset: Reset all calls to initial state (usefull if you archived all calls).
+
+
+----------------------------------------
+
+
+npm install moment -> import 
+moment(item.createdAt).format('HH:mm') //time
+moment(item.createdAt).format('A'); //pm
+
+archieve -> loop -> patch requrest -> all calls will be archived
+
+
+fixx css
+//time shown
+h1 {
+  display: flex;
+  flex-direction: row;
+}
+h1:before, h1:after{
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px dotted;
+  margin: auto;
+}

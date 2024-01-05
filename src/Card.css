@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --black: #333231;
+    --gray: #e5e7eb;
+    --text-gray: #6b7280;
+    --red: #dc2626;
+  }
+  
+  html {
+    font-size: 62.5%; 
+  }
+  
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .cardd {
+    border: 1px solid var(--gray);
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.6rem 0rem 1.6rem 1.6rem;
+  }
+  
+  .card__icon {
+    width: 2rem;
+    height: 2rem;
+  }
+  
+  .card__icon--gray {
+    color: var(--gray);
+  }
+  
+  .card__header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .card__header-text {
+    text-align: left;
+    margin-left: 1.6rem;
+    margin-right: 0.8rem;
+  }
+  
+  .card__title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--black);
+  }
+  
+  .card__description {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--text-gray);
+  }
+  
+  .card__footer {
+    display: flex;
+    align-items: center;
+    color: var(--text-gray);
+  }
+  
+  .card__time {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0px 0.8rem;
+  }
+  
+  .card__am {
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: 1px solid var(--gray);
+    border-right: 0px;
+    padding: 2px 4px;
+  }
+  
+  .card__chip {
+    width: 1.6rem;
+    height: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--red);
+    color: white;
+    border-radius: 50%;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
